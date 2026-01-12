@@ -1,0 +1,75 @@
+*{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+    letter-spacing: 6px;
+}
+h1 {
+    text-align: center;
+    color: green;
+
+}
+
+h1:hover {
+    color: red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #c8c7c7;
+    margin: 0;
+    padding: 20px;
+
+
+}
+
+#input-section {
+    margin: 10px;
+    display: block;
+}
+
+#todo-input {
+    font-size: large;
+    padding: 5px;
+    width: 13rem;
+    border: 0px solid black;
+    border-radius: 5px;
+
+}
+
+#add-btn {
+    background-color: green;
+    font-size: large;
+    color: #c8c7c7;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 0px solid black;
+    border-radius: 5px;
+}
+ul{
+    padding: 0 125px;
+    
+}
+li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
